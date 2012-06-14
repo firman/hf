@@ -1,0 +1,394 @@
+<div id="wrapper">
+<!------------------------- TOOLS -->
+
+    <div id="tools">
+        <div id="but_expand">+</div>
+        <div id="but_collapse">-</div>
+        <span>SKINS</span>
+        <div class="clear"></div>
+        <div id="toolsHolder">
+            <div id="palette">
+                <div id="c_red" class="selected"></div>
+                <div id="c_blue"></div>
+                <div id="c_green"></div>
+                <div id="c_pink"></div>
+                <div id="c_orange"></div>
+                <div id="c_gray"></div>
+            </div>
+            <div id="patterns">
+                <div id="pat_1" class="selected"></div>
+                <div id="pat_2"></div>
+                <div id="pat_3"></div>
+                <div id="pat_4"></div>
+                <div id="pat_5"></div>
+            </div>
+        </div>
+    </div><!-- end div #tools -->
+
+<!------------------------- NAVIGATION -->
+
+    <div id="navbarHolder">
+        <div id="navbar">
+            <ul>
+
+                <li><a id="nav_about" href="#about">Tentang Kami<span class="m_w">Tentang Kami</span><span class="m_r">Tentang Kami</span></a></li>
+                <li><a id="nav_work" href="#work">Galeri<span class="m_w">Galeri</span><span class="m_r">Galeri</span></a></li>
+                <li><a id="nav_projects" href="#projects">Peta Lokasi<span class="m_w">Peta Lokasi</span><span class="m_r">Peta Lokasi</span></a></li>
+                <li><a id="nav_contact" href="#contact">Meet Hani-Firman<span class="m_w">Meet Hani-Firman</span><span class="m_r">Meet Hani-Firman</span></a></li>
+            </ul>
+        </div>
+    </div><!-- end div #navbarHolder -->
+
+<!------------------------- CONTENT -->
+
+    <div id="container">
+        <div id="logo" title="Hani-Firman" class="site-message-absolute">
+            <div class="nav_logo_w"></div>
+        </div>
+
+<!------------------------- ABOUT -->
+
+        <div id="about">
+            <a id="logo_big" title="Hani-Firman" href="index.html"></a>
+            <div id="headline" class="left grid">
+                <h1>Hani-Firman</h1>
+                <h2><span>Insya Allah Menikah</span><br /><a href="mailto:hanifirman@ngundang.com">hanifirman@ngundang.com</a></h2>
+            </div>
+            <div id="about_pict" class="grid">
+            <%= image_tag("my_picture.png", :alt => "Hani-Firman") %>
+            </div>
+            <div class="clear">&nbsp;</div>
+            <div class="left grid"></div>
+            <div class="left grid about_text">
+				<p>
+					<h2>Ya Allah, perkenankanlah putra-putri kami:</h2>
+				</p>
+
+				<p>
+					<h2><strong>Hani Rufaidah Izzaturrahman S.Si</h2>
+					<p>dan</p>
+					<h2>Firman Munthaha S.Kom</strong></h2>
+				</p>
+            </div>
+            <div class="right grid about_text">
+				<p>
+					untuk melakukan syariat agamaMu dan mengikuti sunnah rasulMu
+dalam membentuk ikatan keluarga yang sakinah,mawaddah,warahmah
+yang insyaALLAH akan dilaksanakan pada Ahad, 27 Rajab 1433H/17 Juni 2012:
+					<ul>
+					<li><strong>Akad Nikah : pukul 11.00 WIB </strong></li>
+					<li><strong>Resepsi Pernikahan : pukul 13.00-17.00 WIB</strong></li>
+					<li><strong>
+						di Masjid Al-Khairiyah
+Pesantren Ibnu Salam Nurul Fikri
+Kampung Cihideung, Desa Bantar Waru, Kec.Cinangka
+Serang-Banten
+
+					</strong></li>
+
+					</ul>
+				</p>
+            </div>
+			<div class="clear"></div>
+		</div><!-- end div #about -->
+
+        <div class="clear"></div>
+
+<!------------------------- WORK -->
+
+        <div id="work">
+            <h2>Galeri.</h2>
+            <div class="projectsContainer">
+                <div id="project" class="item_details">
+                    <div class="slide_inner"></div>
+                	<div class="next_slide">&nbsp;</div>
+                    <div class="prev_slide">&nbsp;</div>
+<!-- WORK 1 -->
+                    <div class="prjinfo" id="iit_1">
+                        <div class="item_slider">
+                            <ul>
+                                <li class="iit_1 pic selected">
+                                <%= image_tag("projects/slide_w1_1.jpg", :alt => "Masjid Alkhairiyah") %>
+                                </li>
+                                <li class="iit_1 pic">
+                                <%= image_tag("projects/slide_w1_1.jpg", :alt => "Masjid Alkhairiyah") %></li>
+                                <li class="iit_1 pic">
+                                <%= image_tag("projects/slide_w1_1.jpg", :alt => "Masjid Alkhairiyah") %></li>
+                            </ul>
+                        </div>
+                        <div class="item_text">
+                            <h3>Galeri 1</h3>
+                            <div class="clear"></div>
+                            <h4>Overview:</h4>
+                            <div class="clear"></div>
+
+                            <div class="close_item_info">&nbsp;</div>
+                        </div>
+                    </div><!-- end div #iit_1 -->
+<!-- WORK 2 -->
+                    <div class="prjinfo" id="iit_2">
+                        <div class="item_slider">
+                            <ul>
+                                <li class="iit_2 pic selected">
+                                  <%= image_tag("projects/slide_w2_1.jpg", :alt => "Pesantren Ibnu Salam Nurul Fikri") %></li>
+                                <li class="iit_2 pic"><%= image_tag("projects/slide_w2_2.jpg", :alt => "Pesantren Ibnu Salam Nurul Fikri") %></li>
+                            </ul>
+                        </div>
+                        <div class="item_text">
+                            <h3>Galeri 2</h3>
+                            <div class="clear"></div>
+                            <h4>Overview:</h4>
+                            <div class="clear"></div>
+
+                            <div class="close_item_info">&nbsp;</div>
+
+                        </div>
+                    </div><!-- end div #iit_2 -->
+<!-- WORK 3 -->
+                    <div class="prjinfo" id="iit_3">
+                        <div class="item_slider">
+                            <ul>
+                                <li class="iit_3 pic selected">
+                                  <%= image_tag("projects/slide_w3_1.jpg", :alt => "Tempat Resepsi") %></li>
+                                <li class="iit_3 pic"><%= image_tag("projects/slide_w3_1.jpg", :alt => "Momen of Truth") %></li>
+                            </ul>
+                        </div>
+                        <div class="item_text">
+                            <h3>Galeri 3</h3>
+                            <div class="clear"></div>
+                            <h4>Overview:</h4>
+                            <div class="clear"></div>
+
+                            <div class="close_item_info">&nbsp;</div>
+
+                        </div>
+                    </div><!-- end div #iit_3 -->
+<!-- WORK 4 -->
+                    <div class="prjinfo" id="iit_4">
+                        <div class="item_slider">
+                            <ul>
+                                <li class="iit_4 pic selected"><%= image_tag("projects/slide_w1_1.jpg", :alt => "Masjid Alkhairiyah") %></li>
+                                <li class="iit_4 pic"><%= image_tag("projects/slide_w1_1.jpg", :alt => "Masjid Alkhairiyah") %></li>
+                            </ul>
+                        </div>
+                        <div class="item_text">
+                            <h3>Galeri 4</h3>
+                            <div class="clear"></div>
+                            <h4>Overview:</h4>
+                            <div class="clear"></div>
+
+                            <div class="close_item_info">&nbsp;</div>
+
+                        </div>
+                    </div><!-- end div #iit_4 -->
+<!-- WORK 5 -->
+                    <div class="prjinfo" id="iit_5">
+                        <div class="item_slider">
+                            <ul>
+                                <li class="iit_5 pic selected"><%= image_tag("projects/slide_w1_1.jpg", :alt => "Masjid Alkhairiyah") %></li>
+                                <li class="iit_5 pic"><%= image_tag("projects/slide_w1_1.jpg", :alt => "Masjid Alkhairiyah") %></li>
+                            </ul>
+                        </div>
+                        <div class="item_text">
+                            <h3>Galeri 5</h3>
+                            <div class="clear"></div>
+
+                            <div class="close_item_info">&nbsp;</div>
+
+                        </div>
+                    </div><!-- end div #iit_5 -->
+<!-- WORK 6 -->
+                    <div class="prjinfo" id="iit_6">
+                        <div class="item_slider">
+                            <ul>
+                                <li class="iit_6 pic selected"><%= image_tag("projects/slide_w1_1.jpg", :alt => "Masjid Alkhairiyah") %></li>
+                                <li class="iit_6 pic"><%= image_tag("projects/slide_w1_1.jpg", :alt => "Masjid Alkhairiyah") %></li>
+                            </ul>
+                        </div>
+                        <div class="item_text">
+                            <h3>Galeri 6</h3>
+                            <div class="clear"></div>
+                            <h4>Overview:</h4>
+                            <div class="clear"></div>
+
+                            <div class="close_item_info">&nbsp;</div>
+
+                        </div>
+                    </div><!-- end div #iit_6 -->
+
+                </div><!-- end div #project -->
+
+<!-- WORKS GRID -->
+
+            	<div class="prjGrid">
+                	<div id="it_1" class="item" >
+                	    <%= image_tag("projects/thumb_w1.jpg", :alt => "Masjid Alkhairiyah") %>
+                        <span class="hover">
+                        	<span class='h3'>Galeri 1</span>
+                        </span>
+                    </div>
+                    <div id="it_2" class="item">
+                    	<%= image_tag("projects/thumb_w2.jpg", :alt => "Pesantren Ibnu Salam Nurul Fikri") %>
+                        <span class="hover">
+                            <span class='h3'>Galeri 2</span>
+                        </span>
+                    </div>
+                    <div id="it_3" class="item last">
+                      <%= image_tag("projects/thumb_w3.jpg", :alt => "Moment of Truth") %>
+                        <span class="hover">
+                            <span class='h3'>Galeri 3</span>
+                        </span>
+                    </div>
+                    <div id="it_4" class="item" >
+                    <%= image_tag("projects/thumb_w1.jpg", :alt => "Masjid Alkhairiyah") %>
+                        <span class="hover">
+                            <span class='h3'>Galeri 4</span>
+                        </span>
+                    </div>
+                    <div id="it_5" class="item">
+                      <%= image_tag("projects/thumb_w1.jpg", :alt => "Masjid Alkhairiyah") %>
+                        <span class="hover">
+                            <span class='h3'>Galeri 5</span>
+                        </span>
+                    </div>
+                    <div id="it_6" class="item last">
+                      <%= image_tag("projects/thumb_w1.jpg", :alt => "Masjid Alkhairiyah") %>
+
+                        <span class="hover">
+                            <span class='h3'>Galeri 6</span>
+                        </span>
+                    </div>
+
+                </div><!-- end div .prjGrid -->
+
+            </div><!-- end div .projectsContainer -->
+          <div class="clear"></div>
+        </div><!-- end div #work -->
+        <div class="clear"></div>
+
+<!------------------------- PROJECTS -->
+
+        <div id="projects">
+            <h2>Peta Lokasi.</h2>
+            <div class="projectsContainer">
+<!-- PROJECT 1 -->
+                <div class="pprj">
+                    <div class="grid left">
+                        <div class="item">
+						<iframe width="420" height="315" src="http://www.youtube.com/embed/WhG9HIdFTCU" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="item_text">
+                        <h3>Jalur Alternatif menuju Pesantren Nurul Fikri NAyer</h3>
+                            <div class="clear"></div>
+                            <h4>Keluar pintu TOL Serang Timur</h4>
+                            <ul>
+								<li>	Mulai dari pintu TOL Serang Timur</li>
+								<li>	1	Ke arah barat daya di Jalan Tol Tangerang - Merak menuju Jalan Armada Jalan tol</li>
+								<li>	2	Ambil 1 kiri menuju Jalan Raya Jakarta</li>
+								<li>	3	Belok sedikit ke kanan untuk tetap di Jalan Raya Jakarta</li>
+								<li>	4	Jalan Raya Jakarta belok kanan dan menjadi Jalan Jenderal Sudirman</li>
+								<li>	5	Belok sedikit ke kiri untuk tetap di Jalan Jenderal Sudirman</li>
+								<li>	6	Belok kiri menuju Jalan Kyai Haji Abdul Fatah Hasan</li>
+								<li>	7	Di bundaran, ambil jalan keluar ke-2 dan tetap di Jalan Kyai Haji Abdul Fatah Hasan</li>
+								<li>	8	Terus ke Jalan Abdul Hadi</li>
+								<li>	9	Belok tajam ke kiri menuju Jalan Raya Serang - Pandeglang</li>
+								<li>	10	Belok kanan menuju Jalan Palka</li>
+								<li>	11	Belok kiri menuju Jalan Palka</li>
+								<li>	12	Belok kanan untuk tetap di Jalan Palka</li>
+								<li>	13	Belok kanan untuk tetap di Jalan Palka</li>
+								<li>	14	Belok tajam ke kiri menuju Jalan Cinangka - Pantai Carita</li>
+								<li>	Tiba di Jalan Cinangka - Pantai Carita</li>
+								<li>	Total: 45,0 km - sekitar 56 mnt</li>
+                            </ul>
+
+                    </div>
+                </div><!-- end div .pprj -->
+<!-- PROJECT 2 -->
+                <div class="pprj">
+                    <div class="grid left">
+                        <div class="item">
+                        <%= image_tag("projects/thumb_p1.jpg", :alt => "Peta Lokasi NFBS") %>
+
+
+                        </div>
+                    </div>
+                    <div class="item_text">
+                        <h3>Jalur Pantai Anyer</h3>
+                            <div class="clear"></div>
+                            <h4>Keluar pintu TOL Cilegon:</h4>
+                            <ul>
+                                <li>setelah melewati Hotel Marbella, kemudian Hotel Jayakarta</li>
+								<li>tidak jauh setelah melintasi jembatan besar, ada pertigaan Citeuneng</li>
+								<li>belok kiri dan ikuti jalan sekitar 8Km</li>
+
+                            </ul>
+
+                    </div>
+                </div><!-- end div .pprj -->
+            </div><!-- end div .projectsContainer -->
+            <div class="clear"></div>
+        </div><!-- end div #projects -->
+
+        <div class="clear"></div>
+<!------------------------- CONTACT -->
+        <div id="contact">
+            <h2>Contact.</h2>
+            <div class="clear"></div>
+            <div class="contactContainer">
+                <h3>Get in touch:</h3>
+            	<div class="contact">
+                    <form action="#" method="post" id="contactForm">
+                    <ul>
+                    <li>
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" value="" id="name" />
+                    </li>
+                    <li>
+                    <label for="email">Email:</label>
+                    <input type="text" name="email" value="" id="email" />
+                    </li>
+                    <li>
+                    <label for="tele">Telephone:</label>
+                    <input type="text" name="tele" value="" id="tele" />
+                    </li>
+                    <li class="special" style="display: none;">
+                    <label for="last">Don't fill this in:</label>
+                    <input type="text" name="last" value="" id="last" />
+                    </li>
+                    <li>
+                    <label for="message">Message:</label><textarea rows="5" name="message"></textarea>
+                    </li>
+                    <li class="submitbutton">
+                    <input type="submit" class="btn" value="Send Message" />
+                    </li>
+                    </ul>
+                    </form>
+                </div>
+                <div class="message"><div id="alert"></div></div>
+            </div><!-- end div .contactContainer -->
+            <div class="contact_social grid">
+                <span><a href="https://maps.google.com/maps/ms?msa=0&msid=201462595717847079786.0004c1234ed84fd888555&ie=UTF8&ll=-6.14943,106.040382&spn=0.283659,0.452156&t=h&z=12&vpsrc=6&iwloc=0004c1235d465ef2d3c16"
+				class="address">&nbsp;</a>
+				Pesantren Ibnu Salam Nurul Fikri, Serang-Banten
+				</span>
+                <div class="clear"></div>
+                <span><span class="phone">&nbsp;</span>+62 21 71114051</span>
+                <div class="clear"></div>
+                <span><span class="email">&nbsp;</span>hanifirman@ngundang.com</span>
+                <div class="clear"></div>
+                <a href="#" class="facebook"></a>
+                <div class="clear"></div>
+                <a href="#" class="twitter"></a>
+                <div class="clear"></div>
+            </div><!-- end div .contact_social -->
+            <div class="clear"></div>
+           <div id="btn_top"></div>
+        </div><!-- end div #contact -->
+    </div><!-- end div #container -->
+</div><!-- end div #wrapper -->
+
+<script type='text/javascript'>
+    QueryLoader.init();
+</script>
+
